@@ -9,11 +9,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //variables and outlets
+    
+  
+    @IBOutlet weak var myLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        myLabel.textColor = UIColor.blue
         // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func myButton(_ sender: Any) {
+        
+        
+    }
 }
 
